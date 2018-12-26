@@ -1,0 +1,15 @@
+{
+    "name": "didevelop/selenium_tests",
+    "description": "Selenium test for DI Develop websites",
+    "type": "project",
+    "authors": [
+        {
+            "name": "iyurin",
+            "email": "ily2014yurin@gmail.com"
+        }
+    ],
+    "require": {
+        "facebook/webdriver": "1.6",
+        "phpunit/phpunit-selenium": "4.1"
+    }
+}
