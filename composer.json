@@ -11,5 +11,11 @@
     "require": {
         "facebook/webdriver": "1.6",
         "phpunit/phpunit-selenium": "4.1"
+    },
+    "autoload-dev": {
+        "psr-4": { "DIDevelop\\Tests\\Selenium\\": "tests" }
+    },
+    "autoload": {
+        "psr-4": { "DIDevelop\\Tests\\Selenium\\": "tests" }
     }
 }

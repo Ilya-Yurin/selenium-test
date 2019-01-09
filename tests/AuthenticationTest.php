@@ -2,6 +2,7 @@
 
 namespace DIDevelop\Tests\Selenium;
 
+use DIDevelop\Tests\Selenium\Common\CommonTest;
 use Facebook\WebDriver\WebDriverBy;
 use Facebook\WebDriver\WebDriverSelect;
 

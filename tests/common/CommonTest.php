@@ -1,6 +1,6 @@
 <?php
 
-namespace DIDevelop\Tests\Selenium;
+namespace DIDevelop\Tests\Selenium\Common;
 
 use Facebook\WebDriver\Chrome\ChromeDriver;
 use PHPUnit\Framework\TestCase;
