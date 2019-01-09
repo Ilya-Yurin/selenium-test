@@ -129,7 +129,14 @@ class AuthenticationTest extends CommonTest
      */
     public function assertOrderSuccess()
     {
-        print_r("TESTS WORKING \n");
         $this->assertContains('You have been successfully', 'You have been successfully logged in');
+    }
+
+    /**
+     * @test Make fail Order
+     */
+    public function assertFailOrderSuccess()
+    {
+        $this->assertContains('123123123', 'You have been successfully logged in');
     }
 }
