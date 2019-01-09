@@ -17,12 +17,12 @@ class CommonTest extends TestCase
 
     public function setUp()
     {
-/*        putenv("webdriver.chrome.driver=./bin/chromedriver");
-        $this->webDriver = ChromeDriver::start($this->desired_capabilities);*/
+        putenv("webdriver.chrome.driver=/usr/bin/chromedriver");
+        $this->webDriver = ChromeDriver::start($this->desired_capabilities);
     }
 
     public function tearDown()
     {
-        //$this->webDriver->quit();
+        $this->webDriver->quit();
     }
 }
