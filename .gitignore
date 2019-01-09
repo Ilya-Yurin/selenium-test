@@ -6,5 +6,4 @@ vendor/
 ###< framework-bundle ###
 
 ###> phpunit/phpunit ###
-phpunit.xml
 ###< phpunit/phpunit ###
