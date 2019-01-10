@@ -116,12 +116,12 @@ class AuthenticationTest extends CommonTest
     /**
      * @test Check categories
      */
-    public function assertCategories()
+/*    public function assertCategories()
     {
         $this->webDriver->get($this->appUrl . 'en/');
         $this->assertEquals('Calzones', $this->webDriver->findElement(WebDriverBy::xpath('//*[@id="all_products"]/div/div[2]/div/h3/a'))->getText());
         $this->assertEquals('Pizza', $this->webDriver->findElement(WebDriverBy::xpath('//*[@id="all_products"]/div/div[5]/div/h3/a'))->getText());
-    }
+    }*/
 
     /**
      * @test Make Order
