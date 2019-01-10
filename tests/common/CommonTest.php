@@ -17,7 +17,7 @@ class CommonTest extends TestCase
 
     public function setUp()
     {
-        putenv("webdriver.chrome.driver=/home/developer/bin/chromedriver");
+        putenv("webdriver.chrome.driver=./bin/chromedriver");
         $this->webDriver = ChromeDriver::start($this->desired_capabilities);
     }
 
