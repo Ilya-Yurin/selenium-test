@@ -115,14 +115,13 @@ class AuthenticationTest extends CommonTest
 
     /**
      * @test Check categories
-     * @depends assertAuthorized
      */
-/*    public function assertCategories()
+    public function assertCategories()
     {
         $this->webDriver->get($this->appUrl . 'en/');
         $this->assertEquals('Calzones', $this->webDriver->findElement(WebDriverBy::xpath('//*[@id="all_products"]/div/div[2]/div/h3/a'))->getText());
         $this->assertEquals('Pizza', $this->webDriver->findElement(WebDriverBy::xpath('//*[@id="all_products"]/div/div[5]/div/h3/a'))->getText());
-    }*/
+    }
 
     /**
      * @test Make Order
@@ -135,8 +134,8 @@ class AuthenticationTest extends CommonTest
     /**
      * @test Make fail Order
      */
-    public function assertFailOrderSuccess()
+/*    public function assertFailOrderSuccess()
     {
         $this->assertContains('123123123', 'You have been successfully logged in');
-    }
+    }*/
 }
