@@ -126,10 +126,10 @@ class AuthenticationTest extends CommonTest
     /**
      * @test Make Order
      */
-    public function assertOrderSuccess()
+/*    public function assertOrderSuccess()
     {
         $this->assertContains('You have been successfully', 'You have been successfully logged in');
-    }
+    }*/
 
     /**
      * @test Make fail Order
