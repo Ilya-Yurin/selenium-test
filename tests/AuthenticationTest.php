@@ -12,7 +12,7 @@ class AuthenticationTest extends CommonTest
     /**
      * @test Make order
      */
-    /*public function assertOrderSuccess()
+    public function assertOrderSuccess()
     {
         $this->webDriver->get($this->appUrl . 'en/');
         // find "Pizza" category link and click
@@ -98,7 +98,7 @@ class AuthenticationTest extends CommonTest
 
         // it would be good to check the order number in the database
         $this->assertContains('Order number', $this->webDriver->findElement(WebDriverBy::xpath('//*[@id="individual_order"]/div/div[2]/div[2]/div'))->getText());
-    }*/
+    }
 
     /**
      * @test Login on test website
