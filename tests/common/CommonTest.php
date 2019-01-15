@@ -34,7 +34,7 @@ class CommonTest extends TestCase
         $this->desired_capabilities->setCapability(ChromeOptions::CAPABILITY, $options);
         $this->webDriver = ChromeDriver::start($this->desired_capabilities);*/
 
-        putenv("webdriver.chrome.driver=bin/chromedriver");
+        //putenv("webdriver.chrome.driver=bin/chromedriver");
         $this->desired_capabilities = DesiredCapabilities::chrome();
         $this->desired_capabilities->setPlatform(WebDriverPlatform::LINUX);
         $this->desired_capabilities->setCapability('acceptSslCerts', true);
