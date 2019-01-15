@@ -36,8 +36,8 @@ class CommonTest extends TestCase
 
         //putenv("webdriver.chrome.driver=bin/chromedriver");
         $this->desired_capabilities = DesiredCapabilities::chrome();
-        //$this->desired_capabilities->setPlatform(WebDriverPlatform::LINUX);
-        $this->webDriver = RemoteWebDriver::create('http://142.93.159.120:4444/wd/hub');
+        $this->desired_capabilities->setPlatform(WebDriverPlatform::LINUX);
+        $this->webDriver = RemoteWebDriver::create('http://142.93.159.120:4444/wd/hub', $this->desired_capabilities);
 
         //putenv("webdriver.chrome.driver=/Users/iyurin/app/src/php/di_develop_test/integrations_test/geckodriver");
         //$this->webDriver = ChromeDriver::start($this->desired_capabilities);
